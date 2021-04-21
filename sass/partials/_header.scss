@@ -14,20 +14,41 @@
                 font-size: $navFontSize;
                 a {
                     color: $textColor;
+                    span {
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
                 }
             }
-        };
-        a {
-            span {
-                display: inline-block;
-                height: 15px;
-                width: 15px;
-                margin-right: 5px;
-                img {
-                    height: 100%;
-                };
+            li:last-child {
+                margin-right: 0;
             }
         };
+    }
+}
+
+#jumbotron {
+    @include flex-between;
+    padding: $sectionPadding;
+    color: $textColor;
+    > div {
+        width: 45%;
+    }
+}
+
+#jumbo_pic img {
+    width: 100%;
+}
+
+#main_subheader {
+    font-size: 18px;
+}
+
+.signup_mail {
+    color: $textColor;
+    i {
+        font-size: 12px;
+        margin-left: 5px;
     }
 }
 

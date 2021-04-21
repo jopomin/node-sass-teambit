@@ -1,16 +1,26 @@
+/*  COLORS */
+
 $primaryColor: #ffe7d2;
 $secondaryColor: #2c4792;
 $textColor: #58402c;
 
-$sectionPadding: 20px;
+/* FONTS */
 
 $h2FontSize: 24px;
-$h2MargBott: 20px;
+$navFontSize: 16px;
+$boldText: 600;
 
-$navFontSize: 18px;
+/* PADDINGS */
+
+$sectionPadding: 40px 0;
+
+/* MARGINS */
+
+$h2MargBott: 20px;
+$wrapMargin: 0 auto;
+
+/* BORDERS */
 
 $bordRad: 5px;
 
-$wrapMargin: 0 auto;
 
-$boldText: 600;
