@@ -31,7 +31,7 @@ h2 {
     border-radius: $bordRad;
     text-align: center;
     font-weight: $boldText;
-    padding: 8px 12px;
+    padding: 10px 12px;
     img {
         height: 15px;
         margin-right: 5px;
@@ -42,13 +42,19 @@ h2 {
 }
 
 .btn-prm {
-    background: $secondaryColor;
+    background: $mainGradient;
     color: #fff;
 }
 
 .btn-snd {
-    border: 1px solid $secondaryColor;
-    color: $secondaryColor !important;
+    border: 1px solid $textColorSnd;
+    color: $textColor !important;
+}
+
+.btn-trd {
+    background: #fff;
+    color: $textColorSnd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .signup_buttons {

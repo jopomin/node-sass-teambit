@@ -1,8 +1,11 @@
 /*  COLORS */
 
+$thrCol: #3e14e9;
 $primaryColor: #ffe7d2;
 $secondaryColor: #2c4792;
-$textColor: #58402c;
+$textColor: #0414b3;
+$textColorSnd: #7f14d4;
+$mainGradient: linear-gradient(215deg, rgba(4,20,179,1) 0%, rgba(62,20,233,1) 50%, rgba(127,20,212,1) 100%);
 
 /* FONTS */
 
@@ -12,7 +15,7 @@ $boldText: 600;
 
 /* PADDINGS */
 
-$sectionPadding: 40px 0;
+$sectionPadding: 60px 0;
 
 /* MARGINS */
 
