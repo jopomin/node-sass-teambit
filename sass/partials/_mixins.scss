@@ -16,6 +16,23 @@
     align-items: center;
 }
 
+@mixin flex-vertical-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+@mixin flex-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@mixin flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 @mixin h2-titles {
     font-size: $h2FontSize;
     text-align: center;

@@ -78,6 +78,11 @@ h2 {
   width: 80%;
 }
 
+.secondary_wrapper {
+  margin: 0 auto;
+  width: 96%;
+}
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -179,4 +184,125 @@ h2 {
 }
 .ts_single_pic img {
   height: 100%;
+}
+
+#middle_title {
+  background: #ffe7d2;
+  padding: 10px 0;
+}
+
+#bottom_sections {
+  background: #fff;
+}
+
+.bott_sect {
+  padding: 40px 0;
+}
+
+.left_side_sect {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right_side_sect {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bs_main_pic {
+  width: 50%;
+  margin-right: 25px;
+}
+
+.bs_main_pic img {
+  width: 100%;
+}
+
+.bs_text {
+  text-align: left;
+  width: 450px;
+}
+.bs_text h2 {
+  text-align: left !important;
+}
+.bs_text a {
+  display: block;
+  color: #2c4792;
+  margin: 20px 0;
+}
+.bs_text a i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.bs_text .bs_text_pic {
+  width: 100%;
+}
+.bs_text .bs_text_pic img {
+  width: 100%;
+}
+
+#last_section {
+  background: #ffe7d2;
+  padding: 40px 0;
+}
+#last_section h2 {
+  font-size: 40px;
+}
+#last_section .signup_buttons {
+  justify-content: center;
+}
+#last_section .signup_mail {
+  display: block;
+  text-align: center;
+}
+
+#co-founders_box {
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #58402c;
+}
+#co-founders_box i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  color: #2c4792;
+  font-size: 30px;
+}
+#co-founders_box .cfb_text {
+  color: #58402c;
+  font-size: 15px;
+}
+#co-founders_box .cfb_text p {
+  margin: 15px;
+}
+#co-founders_box .cfb_sign {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+#co-founders_box .cfb_pics {
+  display: flex;
+  justify-content: flex-start;
+}
+#co-founders_box .cfb_pic {
+  margin-right: 20px;
+}
+#co-founders_box .cfb_sign_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+#co-founders_box .cfb_names {
+  color: #2c4792;
+  font-size: 18px;
+  margin-bottom: -5px !important;
+}
+#co-founders_box .cfb_job {
+  color: #58402c;
 }

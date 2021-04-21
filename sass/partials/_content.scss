@@ -36,3 +36,118 @@
         height: 100%;
     }
 }
+
+#middle_title {
+    background: $primaryColor;
+    padding: 10px 0;
+}
+
+#bottom_sections {
+    background: #fff;
+}
+
+.bott_sect {
+    padding: $sectionPadding;
+}
+
+.left_side_sect {
+    @include flex-left;
+}
+
+.right_side_sect {
+    @include flex-right;
+}
+
+.bs_main_pic {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.bs_main_pic img {
+    width: 100%;
+}
+
+.bs_text {
+    text-align: left; 
+    width: 450px;
+    h2 {
+        text-align: left !important;
+    }
+    a {
+        display: block;
+        color: $secondaryColor;
+        margin: 20px 0;
+        i {
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    }
+    .bs_text_pic {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+#last_section {
+    background: $primaryColor;
+    padding: $sectionPadding;
+    h2 {
+        font-size: 40px;
+    }
+    .signup_buttons {
+        justify-content: center;
+    }
+    .signup_mail {
+        display: block;
+        text-align: center;
+    }
+}
+
+#co-founders_box {
+    position: relative;
+    margin: $wrapMargin;
+    width: 800px;
+    padding: 30px;
+    background: #fff;
+    border-radius: $bordRad*2;
+    border: 1px solid $textColor;
+    i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+        color: $secondaryColor;
+        font-size: 30px;
+    }
+    .cfb_text {
+        color: $textColor;
+        font-size: 15px;
+        p {
+            margin: 15px;
+        }
+    }
+    .cfb_sign {
+        @include flex-left;
+        margin-top: 30px;
+    }
+    .cfb_pics {
+        @include flex-left;
+    }
+    .cfb_pic {
+        margin-right: 20px;
+    }
+    .cfb_sign_text {
+        @include flex-vertical-left;
+    }
+    .cfb_names {
+        color: $secondaryColor;
+        font-size: 18px;
+        margin-bottom: -5px !important;
+    }
+    .cfb_job {
+        color: $textColor;
+    }
+}
