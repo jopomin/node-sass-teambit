@@ -306,3 +306,41 @@ h2 {
 #co-founders_box .cfb_job {
   color: #58402c;
 }
+
+footer {
+  padding: 40px 0;
+  background: #fff;
+  color: #58402c;
+}
+footer h3 {
+  margin-bottom: 20px;
+}
+footer ul li {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ft_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.ft_flex > div {
+  width: 180px;
+}
+
+#ft_bio {
+  width: 350px !important;
+  display: flex;
+}
+#ft_bio img {
+  height: 40px;
+  margin-right: 20px;
+}
+#ft_bio p {
+  font-weight: 600;
+  font-size: 16px;
+}
+#ft_bio p a {
+  color: #2c4792;
+  font-size: 14px !important;
+}
