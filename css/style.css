@@ -33,3 +33,46 @@ h1 {
   background: #2c4792;
   color: #fff;
 }
+
+.btn-snd {
+  border: 1px solid #2c4792;
+  color: #2c4792;
+}
+
+.primary_wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: 80px;
+  border-bottom: 1px solid #58402c;
+  padding: 10px 0;
+}
+#navbar nav {
+  display: flex;
+}
+#navbar nav ul {
+  display: flex;
+  align-items: center;
+}
+#navbar nav ul li {
+  margin-right: 30px;
+  font-size: 18px;
+}
+#navbar nav ul li a {
+  color: #58402c;
+}
+#navbar nav a span {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+#navbar nav a span img {
+  height: 100%;
+}
